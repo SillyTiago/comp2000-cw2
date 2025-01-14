@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.COMP2000_CW2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+
+        <!-- Surface color -->
+        <item name="colorSurface">@color/black</item>
+
+        <!-- Background color -->
+        <item name="colorOnBackground">@color/white</item>
+
+        <!-- Status Bar and Navigation Bar (Optional) -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+</resources>

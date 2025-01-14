@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Home"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/add_employee_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Employee"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/edit_employee_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Employee"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/delete_employee_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Employee"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/get_employee_list_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get a List of Employees"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</FrameLayout>
